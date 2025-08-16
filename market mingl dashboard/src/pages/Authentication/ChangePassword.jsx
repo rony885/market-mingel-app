@@ -5,7 +5,7 @@ import { Formik, Form as FormikForm } from "formik";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 import { Link, useNavigate } from "react-router-dom";
-import { FaEye, FaEyeSlash } from "react-icons/fa"; // import eye icons
+import { FaEye, FaEyeSlash } from "react-icons/fa";
 import Footer from "../../components/Footer";
 import { useApiContext } from "../../context/ApiContext";
 

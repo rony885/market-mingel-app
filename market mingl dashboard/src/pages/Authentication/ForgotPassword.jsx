@@ -94,7 +94,7 @@ const ForgotPassword = () => {
                     <Link to="/" className="logo-dark">
                       <img
                         src={unpaginate_setting.logo}
-                       height="120"
+                        height="120"
                         alt="logo dark"
                       />
                     </Link>
@@ -102,7 +102,7 @@ const ForgotPassword = () => {
                     <Link to="/" className="logo-light">
                       <img
                         src={unpaginate_setting.logo}
-                       height="120"
+                        height="120"
                         alt="logo light"
                       />
                     </Link>
@@ -206,7 +206,6 @@ const ForgotPassword = () => {
                 />
               </div>
             </div>
-            {/* <!-- end card --> */}
           </div>
         </div>
       </div>

@@ -5,7 +5,7 @@ import { Formik, Form as FormikForm } from "formik";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 import { Link, useNavigate } from "react-router-dom";
-import { FaEye, FaEyeSlash } from "react-icons/fa"; // import eye icons
+import { FaEye, FaEyeSlash } from "react-icons/fa"; 
 import { useApiContext } from "../../context/ApiContext";
 
 const initialValues = {
@@ -162,7 +162,7 @@ const SignUp = () => {
                     <Link to="/" className="logo-light">
                       <img
                         src={unpaginate_setting.logo}
-                         height="120"
+                        height="120"
                         alt="logo light"
                       />
                     </Link>

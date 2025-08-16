@@ -15,13 +15,7 @@ const Footer = () => {
 
   return (
     <Wrapper>
-      <footer
-        className="footer"
-        style={{ marginTop: "0px" }}
-        // style={{
-        //   backgroundImage: "url('/assets/images/footer/footer-bg-two.png')",
-        // }}
-      >
+      <footer className="footer" style={{ marginTop: "0px" }}>
         <div className="container">
           <div
             className="row gutter-60 "
@@ -219,11 +213,6 @@ const Footer = () => {
                         <li>
                           <span></span>
                         </li>
-                        {/* <li>
-                          <Link to="/particular-duties-responsibilities">
-                            Particular Duties & Res...
-                          </Link>
-                        </li> */}
                         <li>
                           <span></span>
                         </li>
