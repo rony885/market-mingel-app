@@ -6,33 +6,6 @@ import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
 import { useApiContext } from "../../context/ApiContext";
 
-// const slideData = [
-//   {
-//     id: 1,
-//     image: "/assets/images/about/1.jpeg",
-//     name: "Salman Mahmood",
-//     post: "Managing Director",
-//     company: "Marketmingl International",
-//     pdf: "/assets/images/pdf/Salman CV.pdf",
-//   },
-//   {
-//     id: 2,
-//     image: "/assets/images/about/3.png",
-//     name: "Md. Rejwan Masud",
-//     post: "Director, Business Operation",
-//     company: "Marketmingl International",
-//     pdf: "/assets/images/pdf/Rejwan CV.pdf",
-//   },
-//   {
-//     id: 3,
-//     image: "/assets/images/about/4.jpeg",
-//     name: "Mahabubur Rahman",
-//     post: "Executive Director",
-//     company: "Marketmingl International",
-//     pdf: "/assets/images/pdf/Nirob CV.pdf",
-//   },
-// ];
-
 const MeetOurTeam = () => {
   // data fetching
   const { unpaginate_team, fetchUnpaginateTeam } = useApiContext();

@@ -73,16 +73,6 @@ const Manpower = () => {
                     </strong>
                   </span>
                 </div>
-
-                {/* <div className="testimonial__slider swiper">
-                  <div className="swiper-wrapper">
-                    <div className="swiper-slide">
-                      <div className="testimonial__slider-single">
-                        <div className="content"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div> */}
               </div>
             </div>
 

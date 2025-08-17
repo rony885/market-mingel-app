@@ -57,15 +57,10 @@ const Fostering = () => {
                     <strong>Why</strong> Choose Us!
                   </span>
                   <h2 className="title-animation fw-6 mt-25 text-capitalize">
-                    {/* Fostering Access To Diverse Resources And Expertise. */}
                     {unpaginate_home && unpaginate_home.fostering_access_text}
                   </h2>
 
-                  {/* <p className="mt-25">
-                  Our commitment to providing an exceptional crypto gaming
-                  experience is backed by cutting-edge technology, provably fair
-                  games.
-                </p> */}
+                  {/* <p className="mt-25"> </p> */}
                 </div>
 
                 <div className="mt-40">
